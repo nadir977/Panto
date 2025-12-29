@@ -130,7 +130,6 @@ const Navbar = () => {
           })}
 
           <div className="flex gap-6 mt-4 items-center">
-            <ThemeToggle />
             <HiShoppingBag className="text-2xl cursor-pointer" />
           </div>
         </div>
