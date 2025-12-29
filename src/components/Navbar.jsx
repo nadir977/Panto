@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { IoCloseSharp } from "react-icons/io5";
 import { HiShoppingBag } from "react-icons/hi";
-import ThemeToggle from "./ThemeToggle";
 
 const NAV_ITEMS = ["Furniture", "Shop", "About Us", "Contact"];
 
@@ -87,7 +86,6 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex gap-4 text-white items-center">
-          <ThemeToggle />
           <HiShoppingBag className="text-2xl cursor-pointer" />
         </div>
 

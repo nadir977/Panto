@@ -3,9 +3,8 @@ import { FaFacebookF, FaTwitter } from "react-icons/fa";
 import { LuInstagram } from "react-icons/lu";
 
 const Footer = () => {
-  return (
-    <footer className="bg-bg">
-      <div className="main_section text-text">
+  return ( 
+      <div className="main_section">
         <div className="grid gap-10 py-12 sm:grid-cols-2 md:grid-cols-4 text-center md:text-left">
           <div className="flex flex-col gap-4">
             <h2 className="text-3xl font-bold">Panto</h2>
@@ -68,8 +67,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-      </div>
-    </footer>
+      </div> 
   );
 };
 

@@ -56,13 +56,12 @@ const BenefitCard = ({ title, description }) => (
 const Shop = () => {
   const swiperRef = useRef(null);
 
-  return (
-    <div className="bg-bg">
-      <div className="main_section text-text ">
-        <div className="flex flex-col md:flex-row gap-8 items-center md:items-start justify-center my-30 text-center md:text-left">
-          <h2 className="text-4xl font-bold md:w-1/4">
-            Why
-            <br className="hidden sm:block" />
+  return ( 
+    <div className="main_section ">
+      <div className="flex flex-col md:flex-row gap-8 items-center md:items-start justify-center my-30 text-center md:text-left">
+        <h2 className="text-4xl font-bold md:w-1/4">
+          Why
+          <br className="hidden sm:block" />
             Choosing Us
           </h2>
           <div className="flex flex-col md:flex-row gap-8 w-full justify-center items-center md:items-start">
@@ -162,8 +161,7 @@ const Shop = () => {
             View All <LiaLongArrowAltRightSolid />
           </button>
         </div>
-      </div>
-    </div>
+      </div>  
   );
 };
 

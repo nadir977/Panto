@@ -6,9 +6,8 @@ import Rectangle3 from "../assets/Rectangle3.png";
 import Rectangle4 from "../assets/Rectangle4.png";
 
 const Experiences = () => {
-  return (
-    <div className="bg-bg">
-      <div className="main_section text-text my-30">
+  return ( 
+      <div className="main_section my-30">
         <div className="flex flex-col gap-8">
           <div className="grid md:grid-cols-2 gap-8 items-center  justify-center text-center md:text-left md:items-start">
             <div className="flex items-center justify-center ">
@@ -56,8 +55,7 @@ const Experiences = () => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </div> 
   );
 };
 

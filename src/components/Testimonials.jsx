@@ -74,7 +74,7 @@ const Testimonials = () => {
   return (
     <div className="main_section h-[80vh] flex flex-col justify-center items-center gap-6 my-20 relative">
       <h3 className="text-lg text-primary">Testimonials</h3>
-      <h2 className="text-4xl font-bold text-text mb-8">Our Client Reviews</h2>
+      <h2 className="text-4xl font-bold  mb-8">Our Client Reviews</h2>
 
       <Swiper
         onSwiper={(swiper) => (swiperRef.current = swiper)}
