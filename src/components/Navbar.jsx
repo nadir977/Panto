@@ -107,7 +107,7 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`md:hidden absolute top-full left-0 w-full bg-black/30 backdrop-blur-md border-b border-white/20 shadow z-50 overflow-hidden transition-all duration-300 ${
+        className={`md:hidden absolute top-full left-0 w-full bg-black/30 backdrop-blur-md shadow z-50 overflow-hidden transition-all duration-300 ${
           openBar ? "max-h-96 py-6" : "max-h-0 py-0"
         }`}
       >
