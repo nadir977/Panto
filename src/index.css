@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Inder&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+@theme {
+  --color-border: #e5e5e5;
+  --color-bg: #fff;
+  --color-text: #323232;
+  --color-textp: #aaa;
+  --color-main: #f8f7fa;
+  --color-primary: #d6a56d;
+}
+
+.dark {
+  --color-border: #262626;
+  --color-bg: #131515;
+  --color-text: #ffffff;
+  --color-textp: #ffffff;
+  --color-main: black;
+  --color-primary: #e58411;
+}
+
+.main_section {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.react-tabs__tab {
+  border-radius: 9999px !important;
+  padding: 0.5rem 1.5rem !important;
+  transition: all 0.3s;
+}
+
+.react-tabs__tab--selected {
+  background-color: #ffffff !important;
+}
+
+.swiper-pagination {
+  display: none !important;
+}
+
+.swiper-pagination-bullet {
+  display: none !important;
+}
